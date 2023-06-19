@@ -1,0 +1,217 @@
+:root {
+    --primary-brand-color: #4D5AE5;
+    --body-text-color: #434455;
+    --dark-color: #2E2F42;
+    --white-background-color: #FFFFFF;
+    --accent-color: #E7E9FC;
+    --pressed-state-color: #404BBF;
+    --light-mode-color: #F4F4FD;
+}
+
+body {
+    font-family: "Roboto", sans-serif;
+    font-size: 16px;
+    line-height: 24px;
+    letter-spacing: 0.02em;
+    background-color: var(--white-background-color);
+    color: var(--body-text-color);
+    font-style: normal;
+}
+
+/* Header */
+
+.page-header {
+    background-color: var(--white-background-color);
+}
+
+.logo {
+    font-family: "Raleway", sans-serif;
+    font-weight: 800;
+    font-size: 18px;
+    line-height: 1.17;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+    color: var(--primary-brand-color);
+    font-style: normal;
+}
+
+.logo-span {
+    color: var(--dark-color);
+}
+
+.link {
+    text-decoration: none;
+}
+
+.list {
+    list-style: none;
+}
+
+.navigation {
+    color: var(--dark-color);
+    font-weight: 500;
+    list-style: none;
+    text-decoration: none;
+}
+
+.address-link {
+    font-style: normal;
+}
+
+.address-text {
+    color: var(--body-text-color);
+    font-style: normal;
+    text-decoration: none;
+}
+
+.navigation:hover,
+.navigation:focus {
+    color: var(--pressed-state-color);
+}
+
+.address-text:hover,
+.address-text:focus {
+    color: var(--pressed-state-color);
+}
+
+.button-design:hover,
+.button-design:focus {
+    color: var(--white-background-color);
+    background-color: var(--pressed-state-color);
+}
+
+/* Main content */
+
+/* Section 1 */
+.hero {
+    background-color: var(--dark-color);
+}
+
+.header-text-one {
+    font-weight: 700;
+    font-size: 56px;
+    line-height: 1.07;
+    letter-spacing: 0.02em;
+    color: var(--white-background-color);
+    text-align: center;
+}
+
+.order-button {
+    font-family: "Roboto", sans-serif;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 24px;
+    letter-spacing: 0.04em;
+    color: var(--white-background-color);
+    background-color: var(--primary-brand-color);
+    cursor: pointer;
+}
+
+.order-button:hover,
+.order-button:focus {
+    background-color: var(--pressed-state-color);
+}
+
+/* Section 2 */
+.header-title {
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 1.11;
+    color: var(--dark-color);
+    text-align: center;
+    text-transform: capitalize;
+    letter-spacing: 0.02em;
+}
+
+.header-text-two {
+    font-weight: 500;
+    font-size: 20px;
+    letter-spacing: 0.02em;
+    color: var(--dark-color);
+    line-height: 1.2;
+}
+
+.list-text {
+    font-weight: 500;
+    font-size: 20px;
+    letter-spacing: 0.02em;
+    color: var(--dark-color);
+}
+
+
+.text {
+    letter-spacing: 0.02em;
+    color: var(--body-text-color);
+}
+
+/* Section 4 */
+.our-team {
+    background-color: var(--light-mode-color);
+}
+
+.team-text {
+    font-weight: 500;
+    font-size: 20px;
+    letter-spacing: 0.02em;
+    color: var(--dark-color);
+    text-align: center;
+    line-height: 1.2;
+}
+
+.our-team-text {
+    text-align: center;
+}
+
+
+.team-card {
+    background-color: var(--white-background-color);
+}
+
+
+/* Page footer */
+.footer-back {
+    background-color: var(--dark-color);
+}
+
+.logo-footer {
+    color: var(--light-mode-color);
+}
+
+.footer-text {
+    color: var(--light-mode-color);
+}
+
+/* PORTFOLIO (page 2)*/
+
+.active-button:hover,
+.active-button:focus {
+    background-color: var(--pressed-state-color);
+    color: var(--white-background-color);
+}
+
+.button-list {
+    font-family: "Roboto", sans-serif;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 24px;
+    letter-spacing: 0.04em;
+    background-color: var(--light-mode-color);
+    border: 1px solid var(--accent-color);
+    color: var(--primary-brand-color);
+    cursor: pointer;
+}
+
+.portfolio-text {
+    font-weight: 500;
+    font-size: 20px;
+    letter-spacing: 0.02em;
+    color: var(--dark-color);
+    line-height: 1.2;
+}
+
+.portfolio-paragraf {
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    color: var(--body-text-color);
+}
